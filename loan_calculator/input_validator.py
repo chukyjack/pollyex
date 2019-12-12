@@ -54,4 +54,3 @@ class InputValidatorError(Exception):
 
     def __init__(self, message):
         Exception.__init__(self, message)
-        # self.invalid_entry = invalid_entry
