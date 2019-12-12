@@ -10,6 +10,11 @@ logger = logging.getLogger(__file__)
 
 
 def get_data_from_file(file_path):
+    """
+    Get loan data from specified input file.
+    :param file_path:
+    :return:
+    """
     data = ''
     try:
         with open(file_path) as f:
@@ -21,6 +26,12 @@ def get_data_from_file(file_path):
 
 
 def run_calculator(input_data):
+    """
+    Validates the input data, if valid we calculate and return the payment details.
+    If invalid we log the error to console.
+    :param input_data:
+    :return:
+    """
     validator = InputValidator(input_data)
 
     try:
