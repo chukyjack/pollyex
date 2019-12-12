@@ -6,7 +6,7 @@ from loan_calculator.input_validator import InputValidator
 
 class LoanCalculatorTest(TestCase):
 
-    def setUp(self) -> None:
+    def setUp(self):
         super(LoanCalculatorTest, self).setUp()
         self.expected_result = {
             'monthly_payment': '6174.37',
