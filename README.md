@@ -13,15 +13,16 @@ How to use
 ==========
 This software can be run via command line
 
-From your command line/terminal, navigate to the main project directory. Run the code below
+From your command line/terminal, navigate to the main project directory. Run the code below  
+
 $ python calculate.py -t <""" enter loan details text here""">  -f path_to_file -o payment.txt .
 
+**Command flags**  
+-t lets you add the input text via the command line.  
+-f lets you read input from a file.  
+-o lets you specify path to save output..
 
--t lets you add the input text via the command line
--f lets you read input from a file
--o lets you specify path to save output.
-
-Please note that your input data also be in the main directory, and you can specify either of the input flags (-t, -f) and not both. 
+Please note that your input file should be in the main directory, and you can specify either of the input flags and not both. 
 
 
 Run Tests
