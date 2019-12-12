@@ -13,7 +13,7 @@ How to use
 ==========
 This software can be run via command line
 
-From your command line/terminal, navigate to the main project directory. Run the code below
+From your command line/terminal, navigate to the main project directory. Run the code below  
 
 $ python calculate.py -t <""" enter loan details text here""">  -f path_to_file -o payment.txt .
 
