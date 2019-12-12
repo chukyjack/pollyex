@@ -22,7 +22,7 @@ $ python calculate.py -t <""" enter loan details text here""">  -f path_to_file 
 -f lets you read input from a file.  
 -o lets you specify path to save output..
 
-Please note that your input data also be in the main directory, and you can specify either of the input flags (-t, -f) and not both. 
+Please note that your input file should be in the main directory, and you can specify either of the input flags and not both. 
 
 
 Run Tests
